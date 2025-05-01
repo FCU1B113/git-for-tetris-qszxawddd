@@ -263,7 +263,7 @@ void resetBlock(Block* block) {
 
 int main() {
 	State state = {
-		.x = 0,
+		.x = CANVAS_WIDTH/2,
 		.y = 0,
 		.score = 0,
 		.rotate = 0,
